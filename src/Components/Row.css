@@ -53,7 +53,7 @@
     }
 
     .row__posters {
-        scrollbar-width: none;
+        scrollbar-width: thin;
         padding: 20px 0;
     }
 
@@ -67,5 +67,9 @@
 
     .row__posters::-webkit-scrollbar {
         display: none;
+    }
+
+    .row__player {
+        margin-right: 40px;
     }
 }
